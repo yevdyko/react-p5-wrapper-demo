@@ -9019,9 +9019,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
 
-react-p5-wrapper@and-who/react-p5-wrapper#master:
-  version "2.3.0"
-  resolved "https://codeload.github.com/and-who/react-p5-wrapper/tar.gz/64f19b5773aeedc94c04af82ee455a7a213d105e"
+react-p5-wrapper@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/react-p5-wrapper/-/react-p5-wrapper-2.4.0.tgz#2df23d37c0e0c04fd7625cd60ed06f0f3e74a423"
+  integrity sha512-dyhbtCrN5+WAnI7BUuX+VkTpcrtNs7RWTB9OAX2gEeLmp+s8o6OCXLddVvHjIr8CHj3ZPwX8vM9gVzvcYv8OvA==
   dependencies:
     p5 "^1.1.9"
 
