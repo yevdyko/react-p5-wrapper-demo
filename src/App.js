@@ -1,4 +1,4 @@
-import P5Wrapper from 'react-p5-wrapper';
+import { ReactP5Wrapper } from 'react-p5-wrapper';
 
 function App() {
   let sketch = (p5) => {
@@ -27,7 +27,7 @@ function App() {
     }
   }
   return (
-    <P5Wrapper sketch={sketch} />
+    <ReactP5Wrapper sketch={sketch} />
   );
 }
 
