@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@p5-wrapper/react": "^4.3.2",
+    "@p5-wrapper/react": "git+https://github.com/yevdyko/react.git#allow-p5-versions-in-range",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@testing-library/user-event": "^13.2.1",
