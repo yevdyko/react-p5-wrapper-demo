@@ -6,10 +6,10 @@ In the project directory, you can run the following command to install dependenc
 yarn
 ```
 
-Then compile the `react-p5-wrapper` lib intalled from the master:
+Then compile the `@p5-wrapper/react` lib intalled from the branch:
 
 ```
-cd node_modules/react-p5-wrapper && npm install && npm run compile
+cd node_modules/@p5-wrapper/react && pnpm install && pnpm build
 ```
 
 Afterwards, run the server to check that the application works as expected:
