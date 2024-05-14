@@ -1634,13 +1634,12 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@p5-wrapper/react@^4.4.0":
+"@p5-wrapper/react@P5-wrapper/react#version-5":
   version "4.4.0"
-  resolved "https://registry.yarnpkg.com/@p5-wrapper/react/-/react-4.4.0.tgz#a522661d2ced4f21578c5b08109b070335bf90ed"
-  integrity sha512-4s6KEVb0of3s959tmmQ0Xc77v8Y1ZDw6sbjKR+E8Qdn5oLMfat7Wah5Az9Cs2AzljK3HQcz7WFhel5qBTKJyuQ==
+  resolved "https://codeload.github.com/P5-wrapper/react/tar.gz/315b78b8dcf62ab1baa79cdce4511791154f22c9"
   dependencies:
     microdiff "^1.4.0"
-    p5 ">=1.4.1 <2.0.0"
+    react-error-boundary "^4.0.13"
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
@@ -6857,7 +6856,7 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
-"p5@>=1.4.1 <2.0.0", p5@^1.9.4:
+p5@^1.9.4:
   version "1.9.4"
   resolved "https://registry.yarnpkg.com/p5/-/p5-1.9.4.tgz#948ec06c123105f516b0ef63db01c44b93c93b72"
   integrity sha512-dhiZ9mvXx5pm8eRwml34xbeUwce4uS9Q2za0YOHg2p97N9iNAb5hTIHAt77CHKHXAh6A16u/oalz5egRfTyFWw==
@@ -7738,6 +7737,13 @@ react-dom@^18.3.1:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
+
+react-error-boundary@^4.0.13:
+  version "4.0.13"
+  resolved "https://registry.yarnpkg.com/react-error-boundary/-/react-error-boundary-4.0.13.tgz#80386b7b27b1131c5fbb7368b8c0d983354c7947"
+  integrity sha512-b6PwbdSv8XeOSYvjt8LpgpKrZ0yGdtZokYwkwV2wlcZbxgopHX/hgPl5VgpnoVOWd868n1hktM8Qm4b+02MiLQ==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
 
 react-error-overlay@^6.0.11:
   version "6.0.11"
