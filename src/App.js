@@ -26,6 +26,7 @@ function App() {
       p5.endShape(p5.CLOSE);
     }
   }
+
   return (
     <ReactP5Wrapper sketch={sketch} />
   );
