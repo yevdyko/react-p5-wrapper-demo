@@ -1635,9 +1635,9 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@p5-wrapper/react@git+https://github.com/P5-wrapper/react.git#version-5":
+"@p5-wrapper/react@github:P5-wrapper/react#version-5":
   version "4.4.0"
-  resolved "git+https://github.com/P5-wrapper/react.git#0df8673e27fc55f6ba8fec22005d8a7b6e23c3f9"
+  resolved "https://codeload.github.com/P5-wrapper/react/tar.gz/c63bc5682fe0a53d7d2e8ac380c393078b4d2924"
   dependencies:
     microdiff "^1.4.0"
     react-error-boundary "^4.0.13"
